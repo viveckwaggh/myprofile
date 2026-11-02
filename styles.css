@@ -66,6 +66,35 @@
 @media(max-width:900px){.proof-grid{grid-template-columns:1fr 1fr;row-gap:32px}.proof-stat{padding-left:15px}}
 @media(max-width:600px){.proof-agent strong{font-size:18px}}
 
+/* Give the toolkit section stronger contrast and a clearer card hierarchy. */
+.toolkit{background:#e5e9df}
+.toolkit .section-note{color:#354239}
+.tool-grid{gap:14px;border:0}
+.tool-card,.tool-card+.tool-card,.tool-card:nth-child(3){
+  min-height:270px;
+  padding:24px 22px;
+  border:1px solid #c7d0c1;
+  border-radius:7px;
+  background:#f5f7f1;
+  box-shadow:0 5px 16px #2535290b;
+}
+.tool-num{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:25px;border-radius:3px;background:#e3ecd8;color:#48652f;font:11px var(--mono)}
+.tool-card h3{color:#202b23}
+.tool-card p{color:#3c4940}
+.tool-list{color:#26382d;font-size:12px;line-height:2.05}
+.ai-note{background:#f7f8f4;border:1px solid #cbd4c6;border-left:4px solid #72994a;color:#354239}
+.ai-note b{color:#26382c}
+@media(max-width:900px){
+  .tool-card,.tool-card+.tool-card,.tool-card:nth-child(3){padding:22px 20px}
+  .tool-card:nth-child(n+3){border-top:1px solid #c7d0c1}
+}
+@media(max-width:600px){
+  .tool-grid{gap:10px}
+  .tool-card,.tool-card+.tool-card,.tool-card:nth-child(3){min-height:250px;padding:17px 13px}
+  .tool-card:nth-child(n+3){border-top:1px solid #c7d0c1}
+  .tool-list{font-size:9px;line-height:1.95}
+}
+
 /* Readability: make supporting copy comfortable at normal viewing distances. */
 body{font-size:16px}
 .topbar{font-size:14px}
