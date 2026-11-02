@@ -65,3 +65,86 @@
 .proof-agent strong{font-size:21px;letter-spacing:-.04em;color:var(--lime)}
 @media(max-width:900px){.proof-grid{grid-template-columns:1fr 1fr;row-gap:32px}.proof-stat{padding-left:15px}}
 @media(max-width:600px){.proof-agent strong{font-size:18px}}
+
+/* Readability: make supporting copy comfortable at normal viewing distances. */
+body{font-size:16px}
+.topbar{font-size:14px}
+.topbar nav{color:#4f5951}
+.nav-cta{font-size:13px}
+.eyebrow{font-size:11px;letter-spacing:.09em;color:#59645b}
+.hero-intro{font-size:18px;line-height:1.75;color:#4e5951;max-width:490px}
+.button{font-size:14px}
+.text-link{font-size:14px}
+.hero-meta{font-size:10px;color:#626c63}
+.about-copy{font-size:16px;line-height:1.8;color:#4f5951;max-width:580px}
+.about-copy .lead{font-size:22px;color:#29332c}
+.proof-intro .eyebrow{color:#d0dac9}
+.proof-stat>span{font-size:13px;line-height:1.6;color:#d1d9cf}
+.section-note{font-size:15px;line-height:1.75;color:#59635a;width:min(350px,40%)}
+.role-date{font-size:11px;color:#626c63;line-height:1.5}
+.current-tag{font-size:9px}
+.role-title h3{font-size:19px}
+.role-title span{font-size:13px;color:#5d675e}
+.role-main>p{font-size:15px;line-height:1.75;color:#4f5951;max-width:760px}
+.role-tags span{font:10px var(--mono);color:#505b51;padding:6px 9px}
+.role-index{font-size:12px}
+.tool-card h3{font-size:18px}
+.tool-card p{font-size:14px;line-height:1.65;color:#4f5951;min-height:46px}
+.tool-list{font:12px/1.9 var(--mono);color:#3f4a40}
+.ai-note{font-size:14px;line-height:1.7;color:#505b51}
+.edu-year{font-size:11px;color:#5f695f}
+.education-items h3{font-size:16px}
+.education-items p{font-size:14px;color:#59635a}
+.contact-actions>a:not(.button){font:12px var(--mono);color:#e0e5dc}
+.footer-inner{font-size:11px}
+.footer-inner>a:last-child{font-size:10px}
+.agent-summary{font-size:16px;line-height:1.8;color:#4f5a50}
+.flow-index{font-size:10px}
+.flow-node small,.agent-core small,.brand-output small{font-size:12px;color:#586456;line-height:1.55}
+.agent-core small{color:#e0e8dc}
+.brand-chips span{font:10px var(--mono)}
+.agent-explainer p{font-size:14px;line-height:1.8;color:#4e594e}
+.agent-principle>span{font-size:10px}
+.agent-principle strong{font-size:17px}
+.agent-principle p{font-size:13px;line-height:1.7;color:#4e594e}
+.agent-tags span{font-size:10px;color:#4e5b49}
+.agent-screenshot figcaption,.release-screenshot figcaption{font-size:12px;color:#566373;line-height:1.5}
+.agent-screenshot figcaption span:first-child,.release-screenshot figcaption span:first-child{font-size:10px;color:#5e6b7b}
+.release-copy>p{font-size:15px;line-height:1.8;color:#4d594f}
+.release-impact small{font-size:11px}
+@media(max-width:600px){
+  .eyebrow{font-size:9px}
+  .hero-intro{font-size:16px}
+  .hero-meta{font-size:8px;line-height:1.6}
+  .about-copy{font-size:15px}
+  .about-copy .lead{font-size:19px}
+  .proof-stat>span{font-size:11px}
+  .section-note{font-size:14px;width:auto}
+  .role-date{font-size:10px}
+  .role-title h3{font-size:17px}
+  .role-title span{font-size:13px}
+  .role-main>p{font-size:14px}
+  .role-tags span{font-size:9px}
+  .tool-card h3{font-size:15px}
+  .tool-card p{font-size:12px;min-height:54px}
+  .tool-list{font-size:9px;line-height:1.9;overflow-wrap:anywhere}
+  .ai-note{font-size:12px}
+  .edu-year{font-size:9px}
+  .education-items h3{font-size:14px}
+  .education-items p{font-size:12px}
+  .agent-summary{font-size:14px}
+  .flow-index{font-size:8px}
+  .flow-node small,.agent-core small,.brand-output small{font-size:10px}
+  .brand-chips span{font-size:8px}
+  .agent-explainer p{font-size:13px}
+  .agent-principle>span{font-size:9px}
+  .agent-principle strong{font-size:15px}
+  .agent-principle p{font-size:12px}
+  .agent-tags span{font-size:8px}
+  .agent-screenshot figcaption,.release-screenshot figcaption{font-size:11px}
+  .agent-screenshot figcaption span:first-child,.release-screenshot figcaption span:first-child{font-size:8px}
+  .release-copy>p{font-size:14px}
+  .contact-actions>a:not(.button){font-size:10px}
+  .footer-inner{font-size:9px}
+  .footer-inner>a:last-child{font-size:9px}
+}
